@@ -1,0 +1,56 @@
+/* ------------------------------------------------------Tag selectors---------------------------------------------------------- */
+
+hr{
+    /* border-style: dotted none none; */
+    border-top: dotted;
+    background-color: black;
+    width: 30%;
+}
+
+table{
+    border-spacing: 30px 1rem;
+}
+
+h1{
+    color: #66BFBF;
+}
+h2{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}
+
+h1:hover{
+    color: rgb(54, 159, 69);
+}
+h2:hover{
+    color: rgb(54, 159, 69);
+}
+h3:hover{
+    color: rgb(54, 159, 69);
+}
+
+
+/*-------------------------------------------------------class selectors(not unique)--------------------------------------------------------- */
+/*
+You can add two classes in one tag also but not in id   eg :- <body class="abc mnl">
+if let <h1 class="xyz">
+
+
+.xyz{
+    color = blue;
+ }
+  */
+
+
+/*-------------------------------------------------------id selectors--------------------------------------------------------- */
+/*
+IT is unique, in one page there can exist only one tag with one name of id
+if let <h1 id="xyz">
+example now we can't use any other tag(even any other h1) to make its id=xyz
+
+#xyz{
+    color = blue;
+ }
+  */
